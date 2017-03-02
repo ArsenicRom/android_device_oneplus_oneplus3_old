@@ -141,6 +141,9 @@ wifi.supplicant_scan_interval=300
 # Force enable FastDormancy
 persist.env.fastdorm.enabled=true
 
+# Power collapse
+ro.ril.disable.power.collapse=1
+
 # Enable deep sleep #
 pm.sleep_mode=1
 #-- 0 -> Power Collapse Suspend
