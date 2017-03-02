@@ -140,3 +140,11 @@ wifi.supplicant_scan_interval=300
 
 # Force enable FastDormancy
 persist.env.fastdorm.enabled=true
+
+# Enable deep sleep #
+pm.sleep_mode=1
+#-- 0 -> Power Collapse Suspend
+#-- 1 -> Power Collapse (Provides best power savings while sustain communication with your carrier�s network)
+#-- 2 -> Apps Sleep
+#-- 3 -> Slow Clock and Wait for Interrupt
+#-- 4 -> Wait for Interrupt
