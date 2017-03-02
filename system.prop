@@ -136,7 +136,7 @@ persist.timed.enable=true
 
 # Wifi
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=300
+wifi.supplicant_scan_interval=700
 
 # Force enable FastDormancy
 persist.env.fastdorm.enabled=true
