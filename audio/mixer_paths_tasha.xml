@@ -51,7 +51,7 @@
     <ctl name="LINEOUT4 Volume" value="13" />
     <ctl name="HPHL Volume" value="20" />
     <ctl name="HPHR Volume" value="20" />
-    <ctl name="RX0 Digital Volume" value="84" />
+    <ctl name="RX0 Digital Volume" value="89" />
     <ctl name="RX1 Digital Volume" value="84" />
     <ctl name="RX2 Digital Volume" value="84" />
     <ctl name="RX3 Digital Volume" value="84" />
@@ -2248,8 +2248,8 @@
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
 <!-- #ifdef VENDOR_EDIT -->
 <!-- /*zhiguang.su@MultiMedia.AudioDrv , 2016/02/19, add for hw require*/  -->
-        <ctl name="HPHL Volume" value="19" />
-        <ctl name="HPHR Volume" value="19" />
+        <ctl name="HPHL Volume" value="23" />
+        <ctl name="HPHR Volume" value="23" />
 <!-- #endif -->
     </path>
 
@@ -2382,8 +2382,8 @@
         <ctl name="RX2 Digital Volume" value="81" />
         <ctl name="ANC HPHL Enable Switch" value="1" />
         <ctl name="ANC HPHR Enable Switch" value="1" />
-        <ctl name="HPHL Volume" value="20" />
-        <ctl name="HPHR Volume" value="20" />
+        <ctl name="HPHL Volume" value="22" />
+        <ctl name="HPHR Volume" value="22" />
     </path>
 
     <path name="speaker-and-anc-headphones">
@@ -2578,7 +2578,7 @@
 <!-- #ifdef VENDOR_EDIT -->
 <!-- /*zhiguang.su@MultiMedia.AudioDrv , 2016/04/19, mic power high level mode and add adc volume*/  -->
         <ctl name="ADC4 Volume" value="11" />
-        <ctl name="ADC5 Volume" value="11" />
+        <ctl name="ADC5 Volume" value="20" />
         <ctl name="AMIC_3_4 PWR MODE" value="HIGH_PERF" />
         <ctl name="AMIC_5_6 PWR MODE" value="HIGH_PERF" />
 <!-- #endif -->
