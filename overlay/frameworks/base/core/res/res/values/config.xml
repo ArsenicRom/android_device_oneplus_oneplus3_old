@@ -406,6 +406,9 @@
 
     <!-- Enable blur support -->
     <bool name="config_uiBlurEnabled">true</bool>
+    
+    <!-- Enable Night display, which requires HWC 2.0. -->
+    <bool name="config_nightDisplayAvailable">true</bool>    
 
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
