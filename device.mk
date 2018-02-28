@@ -415,9 +415,11 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    android.hardware.broadcastradio@1.0-impl \
     librmnetctl \
     libxml2 \
-    libprotobuf-cpp-full
+    libprotobuf-cpp-full \
+    telephony-ext
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -430,6 +432,8 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
+    qcnvitems \
+    qcrilhook \
     telephony-ext
 
 # TextClassifier smart selection model files
