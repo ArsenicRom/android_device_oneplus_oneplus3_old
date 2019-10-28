@@ -428,7 +428,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.class_main.sh \
-    init.class_late.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
@@ -514,6 +513,10 @@ $(call inherit-product, build/target/product/verity.mk)
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
+
+# VNDK-SP:
+PRODUCT_PACKAGES += \
+    vndk-sp
 
 # VR
 PRODUCT_PACKAGES += \
